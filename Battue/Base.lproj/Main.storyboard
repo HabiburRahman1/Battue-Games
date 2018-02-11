@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Battue" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Huu-8x-b6C">
+                                <rect key="frame" x="137" y="118" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.66799789669999998" green="0.47512125970000002" blue="0.25860109930000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="Player1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JvO-Gm-orS"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FZR-Qn-3Y1">
+                                <rect key="frame" x="16" y="118" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.66799789669999998" green="0.47512125970000002" blue="0.25860109930000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="Player1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LKV-8s-4bg"/>
+                                </connections>
+                            </button>
+                            <button hidden="YES" opaque="NO" clearsContextBeforeDrawing="NO" tag="21" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dXR-kD-LXZ">
+                                <rect key="frame" x="152" y="35" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.66799789669999998" green="0.47512125970000002" blue="0.25860109930000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="Player1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4FR-Ns-SCl"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="3" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vKB-8d-Qk2">
+                                <rect key="frame" x="258" y="118" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.66799789669999998" green="0.47512125970000002" blue="0.25860109930000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="Player1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fWe-CT-uMI"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="5" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ybf-X7-8rY">
+                                <rect key="frame" x="137" y="172" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.66799789669999998" green="0.47512125970000002" blue="0.25860109930000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="Player1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="VIg-Xx-BXf"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="4" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lww-SB-s2k">
+                                <rect key="frame" x="37" y="172" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.66799789669999998" green="0.47512125970000002" blue="0.25860109930000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="Player1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="C5K-e6-4bB"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="6" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qJD-Zf-nCd">
+                                <rect key="frame" x="236" y="172" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.66799789669999998" green="0.47512125970000002" blue="0.25860109930000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="Player1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="00I-Bf-B14"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="8" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="thp-1Q-jhs">
+                                <rect key="frame" x="137" y="213" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.66799789669999998" green="0.47512125970000002" blue="0.25860109930000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="Player1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="C0Y-GE-KEs"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="7" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GM6-pF-h0I">
+                                <rect key="frame" x="65" y="213" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.66799789669999998" green="0.47512125970000002" blue="0.25860109930000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="Player1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4qe-OQ-Xk8"/>
+                                </connections>
+                            </button>
+                            <button hidden="YES" opaque="NO" tag="24" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ElB-AS-JDF">
+                                <rect key="frame" x="11" y="35" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.66799789669999998" green="0.47512125970000002" blue="0.25860109930000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="Player1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6tZ-gV-83s"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="9" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WBV-hu-8hZ">
+                                <rect key="frame" x="215" y="213" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.66799789669999998" green="0.47512125970000002" blue="0.25860109930000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="Player1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0I5-Ef-pfd"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="10" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dfc-EH-KEh">
+                                <rect key="frame" x="137" y="255" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="Player1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Q6K-49-68S"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="18" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hdt-dd-eor">
+                                <rect key="frame" x="137" y="306" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.016804177310000001" green="0.19835099580000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="Player1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fBA-0y-Ffq"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="17" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UVk-00-ZgX">
+                                <rect key="frame" x="65" y="306" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.016804177310000001" green="0.19835099580000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="Player1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Hp1-ea-PKu"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="19" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WEE-ay-WPf">
+                                <rect key="frame" x="215" y="306" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.016804177310000001" green="0.19835099580000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="Player1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="QI5-8d-F9z"/>
+                                </connections>
+                            </button>
+                            <button hidden="YES" opaque="NO" clearsContextBeforeDrawing="NO" tag="22" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G03-Am-FiC">
+                                <rect key="frame" x="226" y="35" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.016804177310000001" green="0.19835099580000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="Player1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="YMj-b8-7b6"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="15" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DKP-KZ-3qW">
+                                <rect key="frame" x="137" y="355" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.016804177310000001" green="0.19835099580000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                            </button>
+                            <button opaque="NO" tag="14" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e5r-wc-sHm">
+                                <rect key="frame" x="37" y="355" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.016804177310000001" green="0.19835099580000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                            </button>
+                            <button opaque="NO" tag="16" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S3Y-YV-QER">
+                                <rect key="frame" x="236" y="355" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.016804177310000001" green="0.19835099580000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                            </button>
+                            <button opaque="NO" tag="12" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tbH-bY-Nm0">
+                                <rect key="frame" x="137" y="401" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.016804177310000001" green="0.19835099580000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                            </button>
+                            <button opaque="NO" tag="11" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7fj-BT-oDr">
+                                <rect key="frame" x="16" y="401" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.016804177310000001" green="0.19835099580000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                            </button>
+                            <button opaque="NO" tag="13" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MlQ-KR-5MP">
+                                <rect key="frame" x="258" y="401" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.016804177310000001" green="0.19835099580000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                            </button>
+                            <button hidden="YES" opaque="NO" clearsContextBeforeDrawing="NO" tag="20" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BmS-Rh-ib7">
+                                <rect key="frame" x="85" y="35" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="Player1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="752-lO-8Cx"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="Man10" destination="dfc-EH-KEh" id="qqd-04-hFI"/>
+                        <outlet property="buttoncheck" destination="ElB-AS-JDF" id="2GJ-SN-Sgh"/>
+                        <outlet property="checkBlue" destination="G03-Am-FiC" id="8pA-AZ-hVd"/>
+                        <outlet property="compare" destination="BmS-Rh-ib7" id="SP7-NR-bu0"/>
+                        <outlet property="comparegray" destination="dXR-kD-LXZ" id="HXx-5n-jH3"/>
+                        <outlet property="player1Man1" destination="FZR-Qn-3Y1" id="Swq-pF-mNK"/>
+                        <outlet property="player1Man2" destination="Huu-8x-b6C" id="dNz-hb-Gij"/>
+                        <outlet property="player1Man3" destination="vKB-8d-Qk2" id="KEl-1U-cfz"/>
+                        <outlet property="player1Man4" destination="Lww-SB-s2k" id="daL-ng-Fww"/>
+                        <outlet property="player1Man5" destination="Ybf-X7-8rY" id="Kht-da-oau"/>
+                        <outlet property="player1Man6" destination="qJD-Zf-nCd" id="TRD-qm-fDp"/>
+                        <outlet property="player1Man7" destination="GM6-pF-h0I" id="Ato-P8-qMH"/>
+                        <outlet property="player1Man8" destination="thp-1Q-jhs" id="duk-5k-pD5"/>
+                        <outlet property="player1Man9" destination="WBV-hu-8hZ" id="Hay-Jk-4yH"/>
+                        <outlet property="player2Man1" destination="7fj-BT-oDr" id="331-1q-AyT"/>
+                        <outlet property="player2Man2" destination="tbH-bY-Nm0" id="PIj-zT-5ww"/>
+                        <outlet property="player2Man3" destination="MlQ-KR-5MP" id="q9n-7r-VS9"/>
+                        <outlet property="player2Man4" destination="e5r-wc-sHm" id="u6T-pF-NnP"/>
+                        <outlet property="player2Man5" destination="DKP-KZ-3qW" id="ieH-bo-uqf"/>
+                        <outlet property="player2Man6" destination="S3Y-YV-QER" id="cBu-sL-BDJ"/>
+                        <outlet property="player2Man7" destination="UVk-00-ZgX" id="RHx-Nt-ZYq"/>
+                        <outlet property="player2Man8" destination="hdt-dd-eor" id="RHz-tb-OGs"/>
+                        <outlet property="player2Man9" destination="WEE-ay-WPf" id="QFh-ro-WHm"/>
+                        <outletCollection property="AllButtons" destination="FZR-Qn-3Y1" collectionClass="NSMutableArray" id="WkW-JJ-eAP"/>
+                        <outletCollection property="AllButtons" destination="Huu-8x-b6C" collectionClass="NSMutableArray" id="Fvc-Lh-lf7"/>
+                        <outletCollection property="AllButtons" destination="vKB-8d-Qk2" collectionClass="NSMutableArray" id="Lri-NI-1bV"/>
+                        <outletCollection property="AllButtons" destination="Lww-SB-s2k" collectionClass="NSMutableArray" id="Yc7-cR-c8r"/>
+                        <outletCollection property="AllButtons" destination="Ybf-X7-8rY" collectionClass="NSMutableArray" id="5FS-BM-geC"/>
+                        <outletCollection property="AllButtons" destination="qJD-Zf-nCd" collectionClass="NSMutableArray" id="Afn-I1-GAF"/>
+                        <outletCollection property="AllButtons" destination="GM6-pF-h0I" collectionClass="NSMutableArray" id="Xa5-RT-ahi"/>
+                        <outletCollection property="AllButtons" destination="thp-1Q-jhs" collectionClass="NSMutableArray" id="tlD-bx-UcT"/>
+                        <outletCollection property="AllButtons" destination="WBV-hu-8hZ" collectionClass="NSMutableArray" id="81d-mw-3zl"/>
+                        <outletCollection property="AllButtons" destination="dfc-EH-KEh" collectionClass="NSMutableArray" id="WC8-34-0Ds"/>
+                        <outletCollection property="AllButtons" destination="7fj-BT-oDr" collectionClass="NSMutableArray" id="Nyj-2K-FUs"/>
+                        <outletCollection property="AllButtons" destination="7fj-BT-oDr" collectionClass="NSMutableArray" id="O2E-LK-dKt"/>
+                        <outletCollection property="AllButtons" destination="tbH-bY-Nm0" collectionClass="NSMutableArray" id="ux0-Sy-FYC"/>
+                        <outletCollection property="AllButtons" destination="MlQ-KR-5MP" collectionClass="NSMutableArray" id="4Mm-GJ-jte"/>
+                        <outletCollection property="AllButtons" destination="e5r-wc-sHm" collectionClass="NSMutableArray" id="BoW-8P-KHL"/>
+                        <outletCollection property="AllButtons" destination="DKP-KZ-3qW" collectionClass="NSMutableArray" id="TgD-gH-hCL"/>
+                        <outletCollection property="AllButtons" destination="S3Y-YV-QER" collectionClass="NSMutableArray" id="ekH-wb-J8h"/>
+                        <outletCollection property="AllButtons" destination="UVk-00-ZgX" collectionClass="NSMutableArray" id="J3H-sX-31n"/>
+                        <outletCollection property="AllButtons" destination="hdt-dd-eor" collectionClass="NSMutableArray" id="jEf-Wl-o2p"/>
+                        <outletCollection property="AllButtons" destination="WEE-ay-WPf" collectionClass="NSMutableArray" id="ec8-fd-TIs"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
